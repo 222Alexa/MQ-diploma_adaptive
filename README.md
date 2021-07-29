@@ -1,0 +1,1 @@
+# MQ-diploma_adaptive
