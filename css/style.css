@@ -217,7 +217,7 @@ background-image: url('../svg/form-circle.svg');
 .header::after {
   content: "";
   background-color: #000000;
-  opacity: 0.45;
+  opacity: 0.6;
   position: absolute;
   top: 0;
   right: 0;
@@ -230,7 +230,7 @@ background-image: url('../svg/form-circle.svg');
   flex-direction: column;
   max-width: 1200px;
   margin: auto;
-  padding-top: 28px;
+  padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
@@ -281,7 +281,7 @@ object-fit: contain;
 
 .menu-link {
   text-decoration: none;
-  font-family: "Open sans";
+  font-family:  OpenSans-Regular, sans-serif;;
   font-weight: 400;
   font-size: 13px;
   line-height: 1.2;
@@ -367,7 +367,7 @@ transform: scale(1);
 
 
 .intro {
-  padding: 72px 0 100px 0;
+  padding: 75px 0 100px 0;
   margin: 0 auto;
   max-width: 740px;
   text-align: center;
@@ -434,6 +434,7 @@ background-repeat: no-repeat;
 .trend-box::after {
   content:"";
 position:absolute;
+background-color: #000;
 opacity: 0.6;
 top: 0;
 right: 0;
@@ -583,14 +584,14 @@ flex-grow: 5;
    font-size: 20px;
    line-height: 1.2;
    color: #0f0d0e;
-   font-family: "Open Sans";
+   font-family:  OpenSans-Bold, sans-serif;
    font-weight: 700;
    text-transform: uppercase;
  }
  .post-title-link {
    
    text-decoration: none;
-   font-family: "Open Sans";
+   font-family: OpenSans-Bold, sans-serif;;
    color: #000;
    font-size: 20px;
    line-height: 1.2;
@@ -607,7 +608,7 @@ flex-grow: 5;
    font-size: 12px;
    line-height: 1.2;
    color: #888888;
-   font-family: "Open Sans";
+   font-family: OpenSans-Regular, sans-serif;;
    font-weight: 400;
  }
  .author {
@@ -617,7 +618,7 @@ flex-grow: 5;
    font-size: 12px;
    line-height: 1.2;
    color: #000000;
-   font-family: "Open Sans";
+   font-family: OpenSans-Regular, sans-serif;
    font-weight: 700;
  }
  
@@ -656,9 +657,10 @@ flex-grow: 5;
   font-size: 1.4rem;
   line-height: normal;
   color: #0f0d0e;
-  font-family: "OpenSans-Bold,sans-serif";
+  font-family: OpenSans-Bold,sans-serif;
   text-align: center;
   text-transform: uppercase;
+
 }
 
 .recent-title::after, .newsletter-title::after,
@@ -764,7 +766,7 @@ flex-grow: 5;
   font-size: 13px;
   line-height: 48px;
   color: #000000;
-  font-family: "Open Sans";
+  font-family: OpenSans-Regular, sans-serif;;
   font-weight: 400;
 
 }
@@ -810,8 +812,7 @@ flex-grow: 5;
     font-size: 13px;
     line-height: 1.2;
     color: #000000;
-    font-family: "Open Sans";
-    font-weight: 400;
+    font-family: OpenSans-Regular, sans-serif;;
     background-color: #f4f7f6;
 
 }
@@ -824,8 +825,7 @@ flex-grow: 5;
     font-size: 14px;
     line-height: 1.2;
     color: #ffffff;
-    font-family: "Open Sans";
-    font-weight: 700;
+    font-family: OpenSans-Bold, sans-serif;
     text-transform: uppercase;
 }
 

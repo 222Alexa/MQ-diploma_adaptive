@@ -6,58 +6,60 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css" />
+    
+    <link rel="stylesheet" media="screen" href="./css/style.css" >
     <link rel="stylesheet" media="screen and (max-width: 640px)" href="./css/mobile-styles.css">
     <link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 1199px)" href="./css/tablet-styles.css">
     <title>Noemi</title>
 </head>
 
-<div id="popup-visibility" class="popup-wrapper">
-    <div class="popup-container">
-        <header class="popup-header">
-            <h3 class="popup-title">ваш фидбек</h3>
-        </header>
-        <form class="popup-form">
-            <div class="form-row select-row">
-                <label>
-                    <span class="form-hint"> Как часто Вы заходите на сайт?</span>
-                    <select name="popup" class="popup-select">
-                        <option value="selected" selected>Почти каждый день</option>
-                        <option>Раз в несколько дней</option>
-                        <option>Раз в несколько недель</option>
-                        <option>Несколько раз в год</option>
-                    </select>
-                </label>
+<body>
+    <div id="popup-visibility" class="popup-wrapper">
+        <div class="popup-container">
+            <header class="popup-header">
+                <h3 class="popup-title">ваш фидбек</h3>
+            </header>
+            <form class="popup-form">
+                <div class="form-row select-row">
+                    <label>
+                        <span class="form-hint"> Как часто Вы заходите на сайт?</span>
+                        <select name="popup" class="popup-select">
+                            <option value="selected" selected>Почти каждый день</option>
+                            <option>Раз в несколько дней</option>
+                            <option>Раз в несколько недель</option>
+                            <option>Несколько раз в год</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-row">
+                    <span class="form-hint"> Вы подписаны на e-mail рассылку?</span>
+                    <label class="radio-group">
+                        <input type="radio" class="radio" name="radio-group">
+                        <span class="radio-group-text">Да</span>
+                    </label>
+                    <label class="radio-group">
+                        <input type="radio" class="radio" name="radio-group">
+                        <span class="radio-group-text">Нет</span>
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label class="field-group">
+                        <span class="form-hint">Расскажите, какой контент Вы хотели бы видеть на нашем сайте?</span>
+                        <textarea class="textarea field-textarea" placeholder="Может, больше рецептов?"
+                            required></textarea>
+                    </label>
+                </div>
+                <button type="submit" class="popup-button">Отправить<span class="visually-hidden">Отправить
+                        форму</span></button>
+            </form>
+            <div class="popup-close">
+                <a href="#popup-visibility"><img class="close-img" src="svg/form-x.svg" alt="Закрыть форму"></a>
+                <span class="visually-hidden">Закрыть форму</span>
             </div>
-            <div class="form-row">
-                <span class="form-hint"> Вы подписаны на e-mail рассылку?</span>
-                <label class="radio-group">
-                    <input type="radio" class="radio" name="radio-group">
-                    <span class="radio-group-text">Да</span>
-                </label>
-                <label class="radio-group">
-                    <input type="radio" class="radio" name="radio-group">
-                    <span class="radio-group-text">Нет</span>
-                </label>
-            </div>
-            <div class="form-row">
-                <label class="field-group">
-                    <span class="form-hint">Расскажите, какой контент Вы хотели бы видеть на нашем сайте?</span>
-                    <textarea class="textarea field-textarea" placeholder="Может, больше рецептов?" required></textarea>
-                </label>
-            </div>
-            <button type="submit" class="popup-button">Отправить<span class="visually-hidden">Отправить
-                    форму</span></button>
-        </form>
-        <div class="popup-close">
-            <a href="#popup-visibility"><img class="close-img" src="svg/form-x.svg" alt="Закрыть форму"></a>
-            <span class="visually-hidden">Закрыть форму</span>
         </div>
     </div>
-</div>
 
-<body>
+
     <div class="container">
         <header class="header">
             <div class="header-content">
@@ -390,8 +392,8 @@
             <div class="showcase-items">
                 <article class="showcase-item">
                     <picture>
-                        <source media="(max-width 640px)" srcset="img/shop-item-mobile1.jpg">
-                        <source media="(min-width 641px) and (max-width 1200px)" srcset="img/shop-item-tablet1.jpg">
+                        <source media="(max-width: 640px)" srcset="img/shop-item-mobile1.jpg">
+                        <source media="(min-width: 641px) and (max-width: 1199px)" srcset="img/shop-item-tablet1.jpg">
                         <img class="showcase-pic" src="img/shop-item-desk1.jpg" alt="pillow">
                     </picture>
                     <div class="showcase-item-content">
@@ -407,8 +409,8 @@
 
                 <article class="showcase-item">
                     <picture>
-                        <source media="(max-width 640px)" srcset="img/shop-item-mobile2.jpg">
-                        <source media="(min-width 641px) and (max-width 1200px)" srcset="img/shop-item-tablet2.jpg">
+                        <source media="(max-width: 640px)" srcset="img/shop-item-mobile2.jpg">
+                        <source media="(min-width: 641px) and (max-width: 1199px)" srcset="img/shop-item-tablet2.jpg">
                         <img class="showcase-pic" src="img/shop-item-desk2.jpg" alt="pillow">
                     </picture>
                     <div class="showcase-item-content">
@@ -428,8 +430,8 @@
 
                 <article class="showcase-item">
                     <picture>
-                        <source media="(max-width 640px)" srcset="img/shop-item-mobile3.jpg">
-                        <source media="(min-width 641px) and (max-width 1200px)" srcset="img/shop-item-tablet3.jpg">
+                        <source media="(max-width: 640px)" srcset="img/shop-item-mobile3.jpg">
+                        <source media="(min-width: 641px) and (max-width: 1199px)" srcset="img/shop-item-tablet3.jpg">
                         <img class="showcase-pic" src="img/shop-item-desk3.jpg" alt="pillow">
                     </picture>
                     <div class="showcase-item-content">
